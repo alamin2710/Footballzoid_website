@@ -1,0 +1,81 @@
+/* Most common useable font */
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Cairo&family=Finlandica:ital@1&family=Montserrat&family=PT+Sans&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@500&display=swap');
+
+/* Most useable style start here */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Most useable style End here */
+
+/* web site header section style start header */
+.continer {
+    width: 1321px;
+    height: 613px;
+    margin-top: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #161616;
+}
+
+.header_titile {
+    width: 50%;
+}
+
+.header-left {
+    padding-left: 106px;
+}
+
+.header-left h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 80px;
+
+}
+
+.header-left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #DD0000;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.header_image {
+    margin-bottom: 0px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.header_image img {
+    padding-top: 33px;
+    padding-bottom: 0px;
+    padding-right: 79px;
+    width: 581px;
+    height: 613px;
+}
+
+/* web site header section style End header */

@@ -25,6 +25,7 @@ header {
 .continer {
     height: 613px;
     margin-top: 50px;
+    /* width: 1221px; */
 }
 
 .header {
@@ -48,7 +49,6 @@ header {
     color: white;
     margin-bottom: 20px;
     line-height: 80px;
-
 }
 
 .header-left p {
@@ -81,6 +81,7 @@ header {
     padding-right: 79px;
     width: 581px;
     height: 613px;
+    display: block;
 }
 
 /* web site header section style End header */
@@ -245,7 +246,7 @@ span {
 }
 
 #hide-button {
-    display: none;
+    visibility: hidden;
 }
 
 /* Main section style end here  */
@@ -322,3 +323,99 @@ span {
 
 
 /* footer section style end here  */
+
+
+/*------------------ Media Quries start here---------- */
+
+/*------------ Smart phone media style start------------- */
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .main-width {
+        width: 100%;
+    }
+
+    .continer {
+        height: 472px;
+        margin-top: 50px;
+    }
+
+    .header {
+        flex-direction: column;
+
+    }
+
+    .header-left {
+        padding-left: 0px;
+    }
+
+    .header-left h1 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        /* text-align: center; */
+    }
+
+    .header-left p {
+        font-size: 14px;
+    }
+
+    .header_image {
+        padding-left: 0px;
+    }
+
+    .header_image img {
+        width: 233px;
+        height: 245px;
+    }
+
+    .top-navigation {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+
+    }
+
+
+    .footers {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .continer {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .top_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .top-left {
+        background-color: none;
+        width: 0;
+        height: 0;
+        margin-top: 100px;
+    }
+
+    .top-navigation {
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 100px; */
+    }
+
+    .top_blogs-right {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 100px;
+    }
+
+    #hide-button {
+        visibility: visible;
+        margin-bottom: 50px;
+    }
+}
+
+
+/*------------------ Media Quries End here---------- */
